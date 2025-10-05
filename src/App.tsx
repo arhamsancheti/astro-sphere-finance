@@ -12,6 +12,7 @@ import Insights from "./pages/Insights";
 import Social from "./pages/Social";
 import NotFound from "./pages/NotFound";
 
+// Initialize React Query client
 const queryClient = new QueryClient();
 
 const App = () => (
